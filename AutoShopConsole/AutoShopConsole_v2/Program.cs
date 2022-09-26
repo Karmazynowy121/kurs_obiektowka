@@ -28,9 +28,6 @@ namespace AutoShopConsole_v2
 
 
             string valueS = auto.GetAutoDataAsString(); 
-
-
-
             Console.WriteLine(valueS);
         }
     }
