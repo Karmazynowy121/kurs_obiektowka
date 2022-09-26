@@ -8,6 +8,6 @@ namespace Bankpustegonasienia
 {
     public class kontomandaryn
     {
-        
+        public List<kontobankowe> KontaBankowe;
     }
 }
