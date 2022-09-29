@@ -1,0 +1,16 @@
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\bin\Debug\net5.0\Bankpustegonasienia.exe
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\bin\Debug\net5.0\Bankpustegonasienia.deps.json
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\bin\Debug\net5.0\Bankpustegonasienia.runtimeconfig.json
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\bin\Debug\net5.0\Bankpustegonasienia.runtimeconfig.dev.json
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\bin\Debug\net5.0\Bankpustegonasienia.dll
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\bin\Debug\net5.0\Bankpustegonasienia.pdb
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\obj\Debug\net5.0\Bankpustegonasienia.csproj.AssemblyReference.cache
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\obj\Debug\net5.0\Bankpustegonasienia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\obj\Debug\net5.0\Bankpustegonasienia.AssemblyInfoInputs.cache
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\obj\Debug\net5.0\Bankpustegonasienia.AssemblyInfo.cs
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\obj\Debug\net5.0\Bankpustegonasienia.csproj.CoreCompileInputs.cache
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\obj\Debug\net5.0\Bankpustegonasienia.dll
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\obj\Debug\net5.0\refint\Bankpustegonasienia.dll
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\obj\Debug\net5.0\Bankpustegonasienia.pdb
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\obj\Debug\net5.0\Bankpustegonasienia.genruntimeconfig.cache
+C:\Users\Karmazynowy\source\repos\Bankpustegonasienia\Bankpustegonasienia\obj\Debug\net5.0\ref\Bankpustegonasienia.dll
