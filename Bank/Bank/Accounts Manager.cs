@@ -93,22 +93,29 @@ namespace Bank
 
             return id;
         }
-        public void LocalTransfer(int recieverAccount, int withdrawAccount, decimal Value)
+        public void LocalTransfer(Account withderwAccount,int recieverAccount, decimal Value)
         {
             bool didFoundAccount = false;
-            foreach (Account account in _accounts)
+            //foreach (Account account in _accounts)
+            //{
+            //    if (account.Id == withdrawAccount)
+            //    {
+            //        account.ChangeBalance(Value);
+            //        didFoundAccount = true;
+            //    }
+            //}
+
+            if (withderwAccount == null)
             {
-                if (account.Id == withdrawAccount)
-                {
-                    account.ChangeBalance(Value);
-                    didFoundAccount = true;
-                }
-            }
-            if (!didFoundAccount)
-            {
-                Console.WriteLine("Nie znaleziono konta nadawcy!");
+                Console.WriteLine("Nie ma konta nadawcy!");
                 return;
             }
+
+            //if (!didFoundAccount)
+            //{
+            //    Console.WriteLine("Nie znaleziono konta nadawcy!");
+            //    return;
+            //}
             didFoundAccount = false;
             foreach (Account account1 in _accounts)
             {
@@ -116,20 +123,27 @@ namespace Bank
                 {
                     account1.ChangeBalance(Value);
                     didFoundAccount = true;
+                    break;
                 }
             }
-            if (!didFoundAccount)
+
+            if (didFoundAccount)
             {
-                Console.WriteLine("Nie znaleziono konta odbiorcy!");
-                foreach (Account account in _accounts)
-                {
-                    if (account.Id == withdrawAccount)
-                    {
-                        account.ChangeBalance(Value);
-                    }
-                }
-                return;
+                withderwAccount.ChangeBalance(Value);
             }
+
+                //if (!didFoundAccount)
+                //{
+                //    Console.WriteLine("Nie znaleziono konta odbiorcy!");
+                //    foreach (Account account in _accounts)
+                //    {
+                //        if (account.Id == withdrawAccount)
+                //        {
+                //            account.ChangeBalance(Value);
+                //        }
+                //    }
+                //    return;
+                //}
             Console.WriteLine("Przelew zrobiony pomyślnie");
         }
     }

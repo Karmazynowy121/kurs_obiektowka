@@ -27,10 +27,15 @@ namespace ExceptionsTutorial
 
         public void SaveExceptionToLog(Exception ex)
         {
-            string logLine = System.String.Format("ERROR TIME:{0:G}: {1}", System.DateTime.Now, ex.Message);
-            using (var sw = File.AppendText(LOG_FILE))
+            var sw = File.AppendText(LOG_FILE); 
+            try
             {
+                string logLine = System.String.Format("ERROR TIME:{0:G}: {1}", System.DateTime.Now, ex.Message);
                 sw.WriteLine(logLine);
+            }
+            finally
+            {
+                sw.Dispose();
             }
         }
     }

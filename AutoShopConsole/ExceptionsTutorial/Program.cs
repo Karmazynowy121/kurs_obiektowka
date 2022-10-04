@@ -7,13 +7,13 @@ namespace ExceptionsTutorial
     {
         static void Main(string[] args)
         {
-            RunApp();
+            TryRunApp();
         }
 
         private static void RunApp()
         {
             var example = new Examples();
-            var devideScore = example.Devide(4, 0);
+            var devideScore = example.TryDevide(4, 0);
             Console.WriteLine(devideScore);
         }
 
@@ -22,16 +22,23 @@ namespace ExceptionsTutorial
             try
             {
                 var example = new Examples();
-                var devidedScore = example.TryDevide(4, 0);
-                Console.WriteLine($"My devided soccre is: {devidedScore}");
+                //var devidedScore = example.TryDevide(4, 0);
+                //Console.WriteLine($"My devided soccre is: {devidedScore}");
+                example.GetuserByEmail("czesssss");
+
+
             }
             catch (MyOwnException ex)
             {
-                Console.WriteLine($"Throw exception: {ex.Message}");
+                Console.WriteLine($"Throw exception with error:{ex.ErrorCode} and message: {ex.Message}");
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Throw exception: {ex.Message}");
+            }
+            finally
+            {
+                Console.WriteLine("Aplikacja konczy bieg!");
             }
         }
     }

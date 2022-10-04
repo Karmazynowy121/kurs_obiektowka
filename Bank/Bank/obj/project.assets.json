@@ -8,26 +8,34 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Karmazynowy\\.nuget\\packages\\": {}
+    "C:\\Users\\manda\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Karmazynowy\\source\\repos\\Bank\\Bank\\Bank.csproj",
+      "projectUniqueName": "C:\\DevFile\\KURS_KUBA_GAWLIK\\kurs_obiektowka\\Bank\\Bank\\Bank.csproj",
       "projectName": "Bank",
-      "projectPath": "C:\\Users\\Karmazynowy\\source\\repos\\Bank\\Bank\\Bank.csproj",
-      "packagesPath": "C:\\Users\\Karmazynowy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Karmazynowy\\source\\repos\\Bank\\Bank\\obj\\",
+      "projectPath": "C:\\DevFile\\KURS_KUBA_GAWLIK\\kurs_obiektowka\\Bank\\Bank\\Bank.csproj",
+      "packagesPath": "C:\\Users\\manda\\.nuget\\packages\\",
+      "outputPath": "C:\\DevFile\\KURS_KUBA_GAWLIK\\kurs_obiektowka\\Bank\\Bank\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Karmazynowy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\manda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -60,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

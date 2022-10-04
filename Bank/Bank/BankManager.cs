@@ -151,9 +151,14 @@ namespace Bank
                 Console.Write("Numer konta: ");
                 accountNo = Console.ReadLine();
                 Console.Write("Kwota: ");
-                value = decimal.Parse(Console.ReadLine());
-                _accountsManager.AddMoney(accountNo, value);
+                
+                if (decimal.TryParse(Console.ReadLine(), out value))
+                {
+                    Console.WriteLine("Nie podałeś pieniędzy!");
+                    return;
+                }
 
+                _accountsManager.AddMoney(accountNo, value);
                 Account account = _accountsManager.GetAccount(accountNo);
                 _printer.Print(account);
 

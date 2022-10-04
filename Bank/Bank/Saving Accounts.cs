@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+// madrzędny użytkownik który posiada wiele kont. 
+
 namespace Bank
 {
     public class SavingsAccount : Account

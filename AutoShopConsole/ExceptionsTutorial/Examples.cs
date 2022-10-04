@@ -24,6 +24,23 @@ namespace ExceptionsTutorial
             };
         }
 
+        public User GetuserByEmail(string email)
+        {
+            if (string.IsNullOrEmpty(email))
+            {
+                throw new MyOwnException(ErrorCodes.EMAIL_INVALID, "Podany eamil nie istnieje");
+            }
+
+            var user = users.FirstOrDefault(user => user.Email == email);
+            if (user != null)
+            {
+                return user;
+            }
+
+            throw new MyOwnException(ErrorCodes.USER_NOT_FOUNT,"User not found.");
+        }
+
+
         public double Devide(double a, double b)
         {
             if (b == 0)
@@ -40,7 +57,8 @@ namespace ExceptionsTutorial
         {
             if (b == 0)
             {
-                throw new MyOwnException(0,"Can't devide for zero!");
+                //throw new MyOwnException(0,"Can't devide for zero!");
+                throw new Exception("Nie dzielimy przez zero!");
             }
 
             return a / b;
